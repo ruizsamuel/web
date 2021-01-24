@@ -1,4 +1,4 @@
-baseURL                          = "http://ruizsamuel.es/"   # Your domain name. Must end with "/"
+baseURL                          = "http://ruizsamuel.gitlab.io/web/"   # Your domain name. Must end with "/"
 theme                            = "introduction"
 DefaultContentLanguage           = "es"                    # Default language for multilingual sites
 
