@@ -511,6 +511,14 @@ h1 > span {
   margin-block-end: 7px;
 }
 
+.projects__desc {
+  font-size: 1.1rem;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-block-end: 7px;
+}
+
 .projects__tags {
   display: flex;
   justify-content: center;
