@@ -512,11 +512,12 @@ h1 > span {
 }
 
 .projects__desc {
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.2;
   font-weight: 400;
   text-transform: uppercase;
   margin-block-end: 7px;
+  color: #7c7c7c
 }
 
 .projects__tags {
