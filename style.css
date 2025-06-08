@@ -277,8 +277,29 @@ h1 > span {
   background-size: 8px 4px;
 }
 
+.hero__description_div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+
+.hero__description_img {
+  height: 225px;
+  width: 225px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.hero__description_img_container {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
 .hero__description {
   margin-block-end: 24px;
+  font-size: 1.5em;
 }
 
 @media (min-width: 37.5em) {
@@ -345,7 +366,7 @@ h1 > span {
   }
 
   .hero__description {
-    /* width: 70%; */
+    width: 70%;
     margin-block-end: 34px;
   }
 }
